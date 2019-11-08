@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+name: Venue
+vid: venue
+description: ""
+hierarchy: 0
+weight: 0

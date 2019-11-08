@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.performances.performance
+    - field.storage.performances.field_event
+    - node.type.event
+  module:
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+id: performances.performance.field_event
+field_name: field_event
+entity_type: performances
+bundle: performance
+label: Event
+description: "Event reference"
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings:
+  handler: "default:node"
+  handler_settings:
+    target_bundles:
+      event: event
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ""
+field_type: entity_reference

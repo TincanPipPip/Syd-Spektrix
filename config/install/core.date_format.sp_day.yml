@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+id: sp_day
+label: "SP Week Day"
+locked: false
+pattern: D

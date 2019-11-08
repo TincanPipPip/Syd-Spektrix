@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+id: sp_dm
+label: "SP DM"
+locked: false
+pattern: "j M"

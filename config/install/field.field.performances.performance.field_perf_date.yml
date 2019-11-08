@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.performances.performance
+    - field.storage.performances.field_perf_date
+  module:
+    - datetime
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+id: performances.performance.field_perf_date
+field_name: field_perf_date
+entity_type: performances
+bundle: performance
+label: Date
+description: ""
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings: {}
+field_type: datetime

@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+id: sp_date
+label: "SP Date"
+locked: false
+pattern: "j M Y"

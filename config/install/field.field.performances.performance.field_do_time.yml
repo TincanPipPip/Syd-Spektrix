@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.performances.performance
+    - field.storage.performances.field_do_time
+  module:
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+id: performances.performance.field_do_time
+field_name: field_do_time
+entity_type: performances
+bundle: performance
+label: "Doors Open Time"
+description: ""
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ""
+settings: {}
+field_type: string

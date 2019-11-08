@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - spektrix_import
+  enforced:
+    module:
+      - spektrix_import
+id: sp_time
+label: "SP Time"
+locked: false
+pattern: "g:iA"
