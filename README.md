@@ -32,7 +32,7 @@ label overrides and modal link. Variables are:
 
 Example of using variables
 --------------------------
-
+```twig
   {% if not pastEvent %} -- if this is not a past event, output the booking link
       {% if content.field_booking_label|render %} -- if the booking label field is not empty
           {% if content.field_event_booking|render %} -- if the booking link field is not empty
@@ -46,4 +46,4 @@ Example of using variables
           </span>
       {% endif %}
   {% endif %}
-
+```
