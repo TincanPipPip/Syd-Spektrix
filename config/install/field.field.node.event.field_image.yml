@@ -15,7 +15,7 @@ field_name: field_image
 entity_type: node
 bundle: event
 label: "Banner Image"
-description: "The image must be larger than 1440x945 pixels and less than 700 KB"
+description: ""
 required: true
 translatable: true
 default_value: {}
